@@ -1,0 +1,7 @@
+{
+  "name": "@tools/proguard",
+  "version": "5.2.1",
+  "description": "ProGuard Java Optimizer and Obfuscator",
+  "license": "GPL-2.0",
+  "directories": {"bin": "./bin"}
+}

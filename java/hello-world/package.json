@@ -1,0 +1,16 @@
+{
+  "name": "@laat/java-hello-world",
+  "version": "1.0.0",
+  "description": "a package",
+  "license": "ISC",
+  "scripts": {
+    "install": "./scripts/build.sh",
+    "start": "java -jar dist/*.jar"
+  },
+  "devDependencies": {
+    "@tools/proguard": "file:../../tools/proguard"
+  },
+  "dependencies": {
+    "@java/commons-lang3": "file:../common-lang3"
+  }
+}

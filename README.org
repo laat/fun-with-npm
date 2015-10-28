@@ -1,0 +1,9 @@
+* Fun with npm
+  replace maven with npm? can it be?
+  
+  
+  #+begin_src shell
+    cd java/hello-world/
+    npm install 
+    npm start
+  #+end_src
