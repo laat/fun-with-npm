@@ -1,0 +1,31 @@
+{
+  "name": "mvn-dl",
+  "version": "0.1.1",
+  "description": "Download artifacts from maven repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo --esnext"
+  },
+  "keywords": [
+    "maven"
+  ],
+  "author": {
+    "name": "Sigurd Fosseng",
+    "email": "sigurd@fosseng.net"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": "cli.js",
+  "repository": "laat/mvn-dl",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.4.2",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.0",
+    "xo": "^0.8.0"
+  }
+}

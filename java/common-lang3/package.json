@@ -1,9 +1,0 @@
-{
-  "name": "@java/commons-lang3",
-  "version": "3.4.0",
-  "description": "commons lang 3",
-  "license": "Apache-2.0",
-  "scripts": {
-    "install": "./scripts/download.sh"
-  }
-}

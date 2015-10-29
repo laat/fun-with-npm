@@ -11,6 +11,6 @@
     "@tools/proguard": "file:../../tools/proguard"
   },
   "dependencies": {
-    "@java/commons-lang3": "file:../common-lang3"
+    "commons-lang3": "file:../../3rd-party/commons-lang3"
   }
 }

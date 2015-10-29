@@ -1,0 +1,17 @@
+{
+  "name": "commons-lang3",
+  "version": "3.4.0",
+  "description": "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "mkdir -p dist && mvn-dl org.apache.commons:commons-lang3:3.4 -d dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mvn-dl": "file:///home/sigurd/git/fun-with-npm/tools/mvn-dl"
+  }
+}
